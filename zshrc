@@ -13,6 +13,11 @@ if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
 fi
 
+if [ -e "$HOME/.myaliases" ]; then
+  source "$HOME/.myaliases"
+fi
+
+
 # vi mode
 bindkey -v
 

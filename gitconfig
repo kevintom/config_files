@@ -1,11 +1,14 @@
 # ADD LOCAL CONFIGURATION HERE
-
+[user]
+	name = Paul
+	email = paul.mckellar@gmail.com
 
 # DO NOT EDIT BELOW THIS LINE
 [color]
 	diff = auto
 	status = auto
 	branch = auto
+	interactive = auto
 [core]
 	excludesfile = ~/.gitignore
 [alias]
